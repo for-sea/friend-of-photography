@@ -1,0 +1,13 @@
+server:
+  servlet:
+    context-path: /photography
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/photography?serverTimezone=UTC
+    username: root
+    password: xiao
+logging:
+  level:
+    com.forsea.dao: debug
